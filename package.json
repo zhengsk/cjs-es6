@@ -1,0 +1,19 @@
+{
+  "name": "cjs-es6",
+  "version": "0.0.1",
+  "description": "convert commonjs file to es6 file.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Commonjs",
+    "es6"
+  ],
+  "author": "chengguan",
+  "license": "ISC",
+  "dependencies": {
+    "5to6-codemod": "^1.8.0",
+    "jscodeshift": "^0.6.3"
+  }
+}
