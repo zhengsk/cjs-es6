@@ -1,4 +1,4 @@
-cons jscodeshift = require('jscodeshift');
+const jscodeshift = require('jscodeshift');
 const toImport = require('5to6-codemod/transforms/cjs');
 const toExport = require('5to6-codemod/transforms/exports');
 
